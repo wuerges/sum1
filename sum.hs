@@ -33,3 +33,4 @@ showNum = concat . map printCasa . reverse
 
 main = do (a:b:[]) <- getArgs
           putStrLn $ showNum (readNum a `sumNums` readNum b)
+          putStrLn $ showNum (readNum a `mulNums` readNum b)
